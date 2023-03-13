@@ -26,25 +26,30 @@ a {
 
 
 .wrapper {
-    position: relative;
     width: 100%;
     padding-bottom: 35px;
+    position: relative;
+    height: 100%;
+    z-index: 10;
 }
 .wrapper-container {
-    position: relative;
+    text-align: right;
+    position: absolute;
+    top: 425%;
+    left: 50%;
 }
 .wrapper-container-img {
-    position: absolute;
-    top: -330px;
-    left: 675px;
-    width: 825px;
+    width:100%;
 }
 .title {
-    margin-top: 400px;
     font-size: 70px;
+    position: absolute;
+    top: 55%;
 }
 .blue {
     width: 75%;
     height: 280px;
     background-color: #000077;
+    position: absolute;
+    top: 65%;
 }
